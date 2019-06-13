@@ -1,0 +1,101 @@
+
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ed/a5/73/eda5739966cb33768d8ad0d77d7307ce.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.input-group .form-control, .btn-default, .btn-default:hover {
+    background: rgb(125,125,80);
+    color: rgb(225,225,225);
+}
+.well, .table, .panel-default > .panel-heading, .list-group-item, a.list-group-item .list-group-item-heading {
+    background:rgba(0,40,0,.7);
+    color: rgb(225,225,225);
+}
+.panel, .panel-body, .panel-footer, .panel-heading {
+	background: rgba(10,40,0,.3);
+   outline: none !important;
+   border-color: #f58f44 !important;
+	border-radius: 5px !important;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(125, 125, 80, 0.6)
+}
+.form-control:focus, textarea:focus, .btn-default:active:focus, .btn-default:focus, .btn-primary:focus {
+   outline: none !important;
+   border-color: #f58f44 !important;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(0, 125, 0, 0.6)
+ }
+body * {
+    border-style: none !important;
+    color:rgb(225,225,225);
+}
+.btn-disclaimer[_ngcontent-c4], .search-type[_ngcontent-c5], .clickable[_ngcontent-c5], [_nghost-c2] {
+    display: none;
+}
+.clickable[_ngcontent-c4] {
+    display: none;
+}
+textarea {
+    background: linear-gradient(rgba(10,30,0,.7),rgba(10,50,0,1));
+    border-radius: 5px;
+    color : white;
+}
+
+/*Changes on buttons */
+.btn {
+      border: 2px solid transparent;
+    transition: border-bottom -1s;
+    text-decoration: none;
+  	
+}
+.btn:hover {
+    border-bottom: 2px solid red;
+}
+
+
+a.list-group-item:hover, item .list-group-item-heading {
+    color: rgb(225,225,225);
+    background: rgb(0,40,0);
+}
+a.help, button.btn.btn-primary{
+    display: none;
+}
+.navbar *{
+    background: linear-gradient(#333333,rgb(0,40,0));
+}
+.navbar-inverse .dropdown-menu > li > a:hover, .navbar-inverse .dropdown-menu > .active > a, .navbar-inverse .dropdown-menu > .active > a:hover {
+    Background: rgba(0,40,0,.5) !important;
+}
+
+a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading {
+    background: none;
+}
+.lrp[_ngcontent-c6],.lrp[_ngcontent-c7], .lrp[_ngcontent-c10],.lrp[_ngcontent-c8] {
+    background: rgb(169,125,42) !important;
+}
+.vip[_ngcontent-c6], .vip[_ngcontent-c7], .vip[_ngcontent-c10],.vip[_ngcontent-c8] {
+    background: radial-gradient(#FFD700, #FFA500) !important;
+}
+#loading-bar {
+    background-color: rgba(10,10,10, .5);
+}
+.loading-intro {	
+    width: 100%;
+   height: 100%;
+   z-index: 99999;
+   background-color: rgba(0,0,0,.9);
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   font-weight: bolder;
+   padding-top: 20%;
+}
+[_nghost-c1], .search-type[_ngcontent-c4] {
+    Display : none;
+}
