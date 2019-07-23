@@ -1,0 +1,114 @@
+body {
+    background-image: url("http://www.blogmais.org/ourimg/big/15/150301_dark-theme-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group, .history-button[_ngcontent-c5]{
+    font-family: Brush Script MT, Brush;
+    font-size: medium;
+}
+h4, .h4 {
+    font-family: Brush Script MT, Brush;
+    font-size: 30px;
+    #text-shadow: 2px 2px;
+}
+
+.input-group .form-control, .btn-default, .btn-default:hover {
+    background: rgb(151, 20, 114);
+    color: rgb(255, 255, 255);
+}
+.well, .table, .panel-default > .panel-heading, .list-group-item, a.list-group-item .list-group-item-heading {
+    background:rgba(15, 15, 15, .7);
+    color: rgb(225,225,225);
+}
+.panel, .panel-body, .panel-footer, .panel-heading {
+	background: rgba(59, 60, 59, .3);
+   outline: none !important;
+   border-color: #f244f5 !important;
+	border-radius: 5px !important;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(227, 92, 225, .6)
+}
+.form-control:focus, textarea:focus, .btn-default:active:focus, .btn-default:focus, .btn-primary:focus {
+   outline: none !important;
+   border-color: #f544f5 !important;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(227, 92, 225, 0.6)
+ }
+#goto-tickets[_ngcontent-c7], #goto-tickets[_ngcontent-c8] {
+    color: #937698;
+}
+body * {
+    border-style: none !important;
+    color:rgb(225,225,225);
+}
+.btn-disclaimer[_ngcontent-c4], .search-type[_ngcontent-c5], .clickable[_ngcontent-c5], [_nghost-c2] {
+    display: none;
+}
+.clickable[_ngcontent-c4] {
+    display: none;
+}
+textarea {
+    background: linear-gradient(rgba(86, 87, 86, .7),rgb(15, 15, 15));
+    border-radius: 5px;
+    color : white;
+}
+
+/*Changes on buttons */
+.btn {
+      border: 2px solid transparent;
+    transition: border-bottom -1s;
+    text-decoration: none;
+  	
+}
+.btn:hover {
+    border-bottom: 2px solid red;
+}
+
+
+a.list-group-item:hover, item .list-group-item-heading {
+    color: rgb(225,225,225);
+    background: rgb(70, 70, 70);
+}
+a.help, button.btn.btn-primary{
+    display: none;
+}
+.navbar *{
+    background: linear-gradient(#333333,rgb(0,40,0));
+}
+.navbar-inverse .dropdown-menu > li > a:hover, .navbar-inverse .dropdown-menu > .active > a, .navbar-inverse .dropdown-menu > .active > a:hover {
+    Background: rgba(0,40,0,.5) !important;
+}
+
+a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading {
+    background: none;
+}
+.lrp[_ngcontent-c6],.lrp[_ngcontent-c7], .lrp[_ngcontent-c8],.lrp[_ngcontent-c9], .lrp[_ngcontent-c10]  {
+    background: rgb(120, 214, 217) !important;
+}
+.vip[_ngcontent-c6], .vip[_ngcontent-c7], .vip[_ngcontent-c10],.vip[_ngcontent-c8] {
+    background: radial-gradient(#FFD700, #FFA500) !important;
+}
+#loading-bar {
+    background-color: rgba(10,10,10, .5);
+}
+.loading-intro {	
+    width: 100%;
+   height: 100%;
+   z-index: 99999;
+   background-color: rgba(0,0,0,.9);
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   
+   text-align: center;
+   color: white;
+   font-size: 80px;
+   font-weight: bolder;
+   padding-top: 20%;
+}
+[_nghost-c1], .search-type[_ngcontent-c4] {
+    Display : none;
+}
