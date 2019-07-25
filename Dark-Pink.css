@@ -73,7 +73,7 @@ a.list-group-item:hover, item .list-group-item-heading {
 a.help, button.btn.btn-primary{
     display: none;
 }
-.img-altMsg[_ngcontent-c6] {
+.img-altMsg[_ngcontent-c6], .img-altMsg[_ngcontent-c7] {
     display: none;
 }
 .navbar *{
