@@ -73,6 +73,9 @@ a.list-group-item:hover, item .list-group-item-heading {
 a.help, button.btn.btn-primary{
     display: none;
 }
+.img-altMsg[_ngcontent-c6] {
+    display: none;
+}
 .navbar *{
     background: linear-gradient(#333333,rgb(0,40,0));
 }
